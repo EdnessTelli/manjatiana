@@ -347,17 +347,15 @@
 
         <!-- CONDITION hi afichena anle erreur  -->
         <?php  if ( !empty($erreur)){?>
-
         <div id="erreur">
             <?php echo $erreur?>
         </div>
-        <?php  }?>
-
+        <?php}?>
         <form action="traitement.php" method="post" name="fo">
 
             <div class="meteza right">
                 <div class="input-box">
-                    <input type="email" name="email" placeholder="Votre Email" value=" <?php echo $email?>">
+                    <input type="email" name="email" placeholder="Votre Email" value="<?php echo $email?>">
                     <input type="text" name="name" placeholder="votre Prenom" value="<?php echo $name?>">
 
 
